@@ -1,0 +1,51 @@
+{
+  "name": "fullstack",
+  "version": "1.0.0",
+  "description": "Example of Angular 2 full-stack app",
+  "main": "dist/start.js",
+  "scripts": {
+    "test": "gulp test",
+    "api": "node __build__/src/start -c api",
+    "web": "node __build__/src/start -c web",
+    "start": "node __build__/src/start -c web",
+    "batch": "node __build__/src/start -c batch",
+    "build": "npm install && tsc && webpack"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@bitbucket.org/gethuman/gethuman.git"
+  },
+  "author": "Jeff Whelpley",
+  "license": "MIT",
+  "homepage": "https://bitbucket.org/gethuman/gethuman#readme",
+  "dependencies": {
+    "@reactivex/rxjs": "^5.0.0-alpha.10",
+    "angular2": "^2.0.0-alpha.46",
+    "continuation-local-storage": "^3.1.4",
+    "es6-shim": "^0.33.13",
+    "gulp": "^3.9.0",
+    "hapi": "^11.1.1",
+    "inert": "^3.2.0",
+    "jsonwebtoken": "^5.4.1",
+    "kerberos": "0.0.17",
+    "lru-cache": "^2.7.0",
+    "mongoose": "^4.2.5",
+    "redis": "^2.3.0",
+    "request": "^2.65.0",
+    "zone.js": "^0.5.8"
+  },
+  "devDependencies": {
+    "css-loader": "^0.23.0",
+    "gulp-jasmine": "^2.2.1",
+    "gulp-tslint": "^3.6.0",
+    "gulp-typescript": "^2.9.2",
+    "jasmine-spec-reporter": "^2.4.0",
+    "json-loader": "^0.5.3",
+    "less": "^2.5.3",
+    "less-loader": "^2.2.2",
+    "raw-loader": "^0.5.1",
+    "style-loader": "^0.13.0",
+    "ts-loader": "^0.7.1",
+    "webpack": "^1.12.6"
+  }
+}

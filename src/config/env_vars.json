@@ -1,0 +1,14 @@
+{
+    "dev": {
+        "REDIS_PASSWORD": "",
+        "PRIVATE_KEY": "BbZJjyoXAdr8BUZuiKKA22imKfrSmQ6fv8kZ7OFfc",
+        "WEBSERVER_ID": "54353425ff4d373b248ff107",
+        "WEBSERVER_TOKEN": "54353425ff4d373b248ff107"
+    },
+    "staging": {
+        "REDIS_PASSWORD": ""
+    },
+    "production": {
+        "REDIS_PASSWORD": ""
+    }
+}

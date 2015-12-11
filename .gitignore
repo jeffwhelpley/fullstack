@@ -1,0 +1,8 @@
+node_modules
+npm-debug.log
+.idea
+.vscode
+idea
+__build__
+__dist__
+config/env_vars.json

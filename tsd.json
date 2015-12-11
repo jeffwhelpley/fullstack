@@ -1,0 +1,45 @@
+{
+  "version": "v4",
+  "repo": "borisyankov/DefinitelyTyped",
+  "ref": "master",
+  "path": "typings/tsd",
+  "bundle": "typings/tsd/tsd.d.ts",
+  "installed": {
+    "mongoose/mongoose.d.ts": {
+      "commit": "41575638fd0f09db58094ab1c6c800556ca54040"
+    },
+    "node/node.d.ts": {
+      "commit": "4f7b7e01d3a9622bfab0bef469e169529e60c66b"
+    },
+    "redis/redis.d.ts": {
+      "commit": "41575638fd0f09db58094ab1c6c800556ca54040"
+    },
+    "lru-cache/lru-cache.d.ts": {
+      "commit": "41575638fd0f09db58094ab1c6c800556ca54040"
+    },
+    "rx/rx.d.ts": {
+      "commit": "001ca36ba58cef903c4c063555afb07bbc36bb58"
+    },
+    "rx/rx-lite.d.ts": {
+      "commit": "001ca36ba58cef903c4c063555afb07bbc36bb58"
+    },
+    "hapi/hapi.d.ts": {
+      "commit": "8c4ec896ab619e7cb6572f82423e6e1eece70f5a"
+    },
+    "bluebird/bluebird.d.ts": {
+      "commit": "8c4ec896ab619e7cb6572f82423e6e1eece70f5a"
+    },
+    "request/request.d.ts": {
+      "commit": "4f7b7e01d3a9622bfab0bef469e169529e60c66b"
+    },
+    "form-data/form-data.d.ts": {
+      "commit": "4f7b7e01d3a9622bfab0bef469e169529e60c66b"
+    },
+    "jsonwebtoken/jsonwebtoken.d.ts": {
+      "commit": "4f7b7e01d3a9622bfab0bef469e169529e60c66b"
+    },
+    "jasmine/jasmine.d.ts": {
+      "commit": "aed176536a202b9a2475ce1989ea6d2d0226a185"
+    }
+  }
+}
